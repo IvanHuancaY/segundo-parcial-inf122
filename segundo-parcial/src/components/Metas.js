@@ -3,7 +3,7 @@ import '../style/Metas.css';
 import Notas from '../components/Notas'
 
 
-function Metas(){
+function Metas( {nroClicks, mostrar}){
     const [notas, setNotas] = useState([]);
     const [nuevaNota, setNuevaNota] = useState('');
     const agregarNota = () => {
@@ -47,7 +47,7 @@ function Metas(){
                 <br/>
                     <div>
                         <input className="comp"
-                        placeholder="Completadas"
+                         placeholder="Completadas"
                         />
                         <input className=" pend"
                         placeholder="Pendientes"

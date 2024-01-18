@@ -18,14 +18,14 @@ function Nota({ nota, onDelete, onEdit }) {
                         value={nuevoTexto}
                         onChange={(e) => setNuevoTexto(e.target.value)}
                     />
-                    <button onClick={handleGuardar}>Guardar</button>
+                    <button onClick={handleGuardar}></button>
                 </div>
             ) : (
                 <div className='contenedor-nota'>
                     <p className='nota'>{nota.texto}</p>
                     
-                    <button  onClick={() => onDelete(nota.id)}></button>
-                    <button  onClick={() => setEditando(true)}></button>
+                    <button className='boton' onClick={() => onDelete(nota.id)}></button>
+                    <button className='boton' onClick={() => setEditando(true)}></button>
                 </div>
             )}
         </div>
