@@ -1,0 +1,57 @@
+html{
+    background: #1B1C1F;
+}
+h1{
+    color: #F6F7F9;
+    font-family: Overpass;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.agreg{
+    
+    width: 36.6875rem;
+    padding: 1rem 1.25rem;
+    gap: 0.625rem;
+    border-radius: 0.625rem 0rem 0rem;
+    backgroun: #F6F7F9;
+}
+
+.bot{
+    color: #F6F7F9;
+    background-color: #1C9675;
+    font-family: Overpass;
+    line-height: normal;
+    padding: 1.2rem ;
+    gap: 0.625rem;
+
+    height: 3.5rem;
+    
+    
+}
+.ini{
+    align-items: center;
+}
+.comp{
+    width: 20rem;
+    padding: 0.625rem ;
+    gap: 0.6rem;
+    border-radius: 0.625rem;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    
+}
+.pend{
+    width: 20.875rem;
+    padding: 0.625rem 1rem;
+    gap: 0.625rem;
+    border-radius: 0.625rem;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+.segu{
+    align-items: center;
+    margin: 20px;
+}
+
